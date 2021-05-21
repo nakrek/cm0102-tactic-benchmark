@@ -1,0 +1,64 @@
+CMTacTool
+=========
+
+Usage
+-----
+
+Open a text file containing your benchmark results in the following format:
+
+tactic_name scored-conceded points games wins-draws-losses
+
+Spaces are used to separate the fields. As an example, the following line
+
+FuryOfTheBeast            53-38 44 26 12-8-6
+
+means that the tactic FuryOfTheBeast scored 53 goals, conceded 38 and scored 44 points. This
+in 26 games, by winning 12 games, drawing 8 and losing 6.
+
+The program cannot handle tactic names with spaces in it, so replace spaces with underlines.
+
+
+Introduction
+------------
+
+Use the menu to load the attached iraklis_sample.txt file.
+
+You will see several columns of data: tactic name, goals, conceded, points, pts_avg and #.
+
+Tactic name is the name of the tactic, all benchmark runs with the same tactic name are
+assumed to belong to the same tactic.
+
+The goals column is of the form: 
+
+avg+-interval 
+
+the avg is the average goals scored by the tactic in the benchmarks present (the sample mean).
+The interval is the 95% confidence interval, that is where the true average is with 95% 
+probability.
+
+As an example, a goal column of 54.81+-1.02 means that the tactic scored on average 54.81
+goals in the benchmarks so far, and its true average is w. 95% chance between 53.79--55.83
+
+The conceded column is the same, but for conceded.
+
+The points column is pretty much the same, but instead the 95% confidence interval is presented.
+
+Pts avg is the sample mean of the points.
+
+The # indicates the number of benchmarks available of a particular tactic.
+
+
+Compare tool
+------------
+
+Is able to show you the difference in player positions between two selected tactics. Both tactics 
+must be in your tactics folder.
+
+Stats tool
+----------
+
+Shows more statistics about a tactic. The most important thing here is the std_dev for points.
+That indicates how consistent the tactic is, the lower the value, the more stable it is.
+
+
+//Tapani
