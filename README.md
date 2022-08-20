@@ -1,6 +1,6 @@
 ### What is this repository for? ###
 
-* Tested tactics for 100 season with same team tapani created for greek league.
+* Tested tactics against 3.68 release AI tactics for 100 season with same team tapani created for greek league.
 
 * Use np++ for marking lines with PAS Gianni only. (ctrl +f )
 
