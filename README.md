@@ -6,7 +6,7 @@
 
 * Use np++ Search / Bookmark / Remove unmarked lines (set alt + d).
 
-* Use np++ Line operations / Remove duplicate lines (set alt + s)
+* Use np++ Line operations / Remove duplicate lines (set alt + a)
 
 * Use np++ Replace C and R with space.
 
