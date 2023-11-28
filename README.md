@@ -8,23 +8,23 @@
 
 ~~~
 
-* Clean the benchresult.txt use the following;
+* TClean the benchresult.txt use the following;
 
-* Use np++  https://notepad-plus-plus.org/ for marking lines with PAS Gianni only. (ctrl +f )
+* TUse np++  https://notepad-plus-plus.org/ for marking lines with PAS Gianni only. (ctrl +f )
 
-* Use np++ Search / Bookmark / Remove unmarked lines (set alt + d).
+* TUse np++ Search / Bookmark / Remove unmarked lines (set alt + d).
 
-* Use np++ Line operations / Remove duplicate lines (set alt + a)
+* TUse np++ Line operations / Remove duplicate lines (set alt + a)
 
-* Use np++ Replace C and R with space.
+* TUse np++ Replace C and R with space.
 
-* Paste results to New Microsoft Excel Worksheet which has all formulas, move the tactic folder to (tested tactics) folder.
+* TPaste results to New Microsoft Excel Worksheet which has all formulas, move the tactic folder to (tested tactics) folder.
 
-* Refresh (CM Tactics - Source 1) from Query tab.
+* TRefresh (CM Tactics - Source 1) from Query tab.
 
-* Update CM Tactics - Source 2, 3 and 4
+* TUpdate CM Tactics - Source 2, 3 and 4
 
-* CM Tactics Sheet2 statics needs updated but not all columns due to it takes very long for calculations! (I left only first and last line with calculation formulas)
+* TCM Tactics Sheet2 statics needs updated but not all columns due to it takes very long for calculations! (I left only first and last line with calculation formulas)
 
 
 ~~~
