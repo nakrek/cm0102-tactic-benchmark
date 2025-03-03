@@ -47,3 +47,9 @@
 * Update CM Tactics - Source 2, 3 and 4
 
 * CM Tactics Sheet2 statics needs updated but not all columns due to it takes very long for calculations! (I left only first and last line with calculation formulas)
+
+~~~
+
+* You may also use the tool created by tafo instead of some of the cleaning text and creating excel files, still some of the steps needs manual work.
+
+*  https://github.com/tafo/TBL/tree/master/Release
